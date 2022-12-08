@@ -25,15 +25,18 @@ a:hover{
     color: white;
 }
 #time3{
-    width: 170px;
+    width: 190px;
+    
 }
+
 #time4{
     width: 670px;  
 }
 #banner{
-    width: 38%;
-    margin-left: 30%;
-    padding-top: 4%;
+    width: 1250px;
+    margin-left: 20%;
+    padding-top: 2%;
+    
     
 }
 
@@ -55,11 +58,23 @@ a:hover{
 
 #pai{
     overflow: hidden;
+    padding-left: 50px;
+}
+
+.jogo2{
+    margin-top: 50px;
+    height: 275px;
+}
+
+.botao {
+    margin-bottom: 15px;
 }
 
 #jogos img{
     width: 50%;
     float: left;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 #jogos p{
@@ -85,3 +100,5 @@ body{
 
     
 }
+
+
