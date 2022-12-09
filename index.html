@@ -55,11 +55,43 @@
 
         <main>
 
-        <div class="row container-fluid " id="pai">
+
+
+        <div class="row container-fluid " id="pai" >
             <div class="slideshow-container">
                 <div class="col-10" id="banner">
                     
-                    <img class="img-fluid" alt="Jogadores Marrocos" src="https://istoe.com.br/wp-content/uploads/2022/10/marrocos.jpg">
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade col-10" id="pai">
+                          <div class="numbertext">1 / 3</div>
+                          <img class="img-fluid" src="https://istoe.com.br/wp-content/uploads/2022/10/marrocos.jpg" style="width:100%">
+        
+                        </div>
+                      
+                        <div class="mySlides fade col-10" id="pai">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="https://trivela.com.br/wp-content/uploads/2022/11/Marrocos-Time.jpg" style="width:100%">
+        
+                        </div>
+                      
+                        <div class="mySlides fade col-10" id="pai">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="https://media.moneytimes.com.br/uploads/2022/12/jogadores-do-marrocos.jpg" style="width:100%">
+        
+                        </div>
+        
+                    </div>
+        
+                      <br>
+        
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
 
                 </div>
             </div>
@@ -203,4 +235,21 @@
     </center>
     
 </body>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
 </html>
