@@ -101,6 +101,83 @@ body{
     
 }
 
+#fo{
+  padding-top: 20px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  
+}
+
+#customers td{
+  border: 1px solid #ddd;
+}
+
+#customers th {
+  border: 1px solid #04AA6D;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:nth-child(odd){background-color: snow;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  text-align: left;
+  background-color: #04AA6D;
+}
+
+.caixa{
+  width: 1100px;
+}
+
+.tabela{
+  width: 90%;
+  margin-left: 50%;
+  padding-top: 10px;
+}
+
+.tabela td, .tabela th{
+  padding: 5px 5px 5px 25px;
+
+}
+
+.nome{
+  font-size: 30px;
+}
+
+.posicao{
+  width: 10px;
+}
+
+.imagemJ{
+  width: 100%;
+}
+
+.number{
+  width: 50px;
+}
+
+.age{
+  width: 100px;
+}
+
+.foto{
+  width: 120px;
+}
+
+.ger{
+  width: 100px;
+}
+
+/*.name{
+  width: 40px;
+}*/
+
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
