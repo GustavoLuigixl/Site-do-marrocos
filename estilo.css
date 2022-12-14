@@ -34,7 +34,7 @@ a:hover{
 }
 #banner{
     width: 1250px;
-    margin-left: 2%;
+    margin-left: 20%;
     padding-top: 2%;
     
     
@@ -66,8 +66,12 @@ a:hover{
     height: 275px;
 }
 
-.botao {
+#botao {
     margin-bottom: 15px;
+    height: 42px;
+    margin-top: 9px;
+    float: right;
+    
 }
 
 #jogos img{
@@ -208,63 +212,49 @@ body{
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
+#t1{
+    margin-left: 5%;
+    color: white;
+    margin-bottom: 5%;
+    background-color:  rgb(121, 13, 50);
+    width: 750px;
+    
 
 }
+#t2{
+    margin-left: 5%;
+    color: white;
+    margin-bottom: 5%;
+    background-color:  rgb(121, 13, 50);
+    width: 750px;
+}
+#foto1,#foto2{
+    width: 390px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+p, h3{
+    margin-top: 20px;
+}
+#bandeira1{
+    float: left;
 
-.active, .dot:hover {
-  background-color: #717171;
+}
+#bandeira2{
+    float: right;
+}
+#placar{
+    text-align: center;;
+    
+}
+#t3{
+    margin-left: 5%;
+    color: white;
+    margin-bottom: 5%;
+    background-color:  rgb(121, 13, 50);
+    width: 400px;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 

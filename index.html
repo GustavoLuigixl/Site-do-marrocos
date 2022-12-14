@@ -26,19 +26,19 @@
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                   
-                         <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav " >
-                            <li class="nav-item">
-                                <a class="nav-link"  href="index.html" style="color:white ;">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Equipe.html" style="color:white ;">Equipe</a>
-                            </li>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav " >
                       <li class="nav-item">
-                        <a class="nav-link" href="#" style="color:white ;">Jogos</a>
+                        <a class="nav-link"  href="index.html" style="color:white ;">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#" style="color:white ;">Títulos</a>
+                        <a class="nav-link" href="#" style="color:white ;">Equipe</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="jogos.html" style="color:white ;">Jogos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="titulos.html" style="color:white ;">Títulos</a>
                       </li>
                       
                     </ul>
@@ -55,43 +55,11 @@
 
         <main>
 
-
-
-        <div class="row container-fluid " id="pai" >
+        <div class="row container-fluid " id="pai">
             <div class="slideshow-container">
                 <div class="col-10" id="banner">
                     
-                    <div class="slideshow-container">
-
-                        <!-- Full-width images with number and caption text -->
-                        <div class="mySlides fade col-10" id="pai">
-                          <div class="numbertext">1 / 3</div>
-                          <img class="img-fluid" src="https://istoe.com.br/wp-content/uploads/2022/10/marrocos.jpg" style="width:100%">
-        
-                        </div>
-                      
-                        <div class="mySlides fade col-10" id="pai">
-                          <div class="numbertext">2 / 3</div>
-                          <img src="https://trivela.com.br/wp-content/uploads/2022/11/Marrocos-Time.jpg" style="width:100%">
-        
-                        </div>
-                      
-                        <div class="mySlides fade col-10" id="pai">
-                          <div class="numbertext">3 / 3</div>
-                          <img src="https://media.moneytimes.com.br/uploads/2022/12/jogadores-do-marrocos.jpg" style="width:100%">
-        
-                        </div>
-        
-                    </div>
-        
-                      <br>
-        
-                        <!-- The dots/circles -->
-                        <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        </div>
+                    <img class="img-fluid" alt="Jogadores Marrocos" src="https://istoe.com.br/wp-content/uploads/2022/10/marrocos.jpg">
 
                 </div>
             </div>
@@ -235,21 +203,4 @@
     </center>
     
 </body>
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
 </html>
